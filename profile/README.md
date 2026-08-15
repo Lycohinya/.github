@@ -14,8 +14,7 @@ Lycohinya 是一個以原版生存為基底的 Minecraft Java 伺服器，以 **
 
 我們保留 Minecraft 原本自由探索、建築與生存的節奏，再加入使魔、花籤、任務、經濟、領地與各種生活品質功能。許多出現在這個組織的專案，最初也都是從伺服器實際遇到的需求而開發出來的
 
-|           |                                                           |
-| :-------- | :-------------------------------------------------------- |
+
 | **版本**    | Minecraft Java Edition 26.2                               |
 | **連線位置**  | `mc.tinyyana.com`                                         |
 | **官方網站**  | [lycohinya.tinyyana.com](https://lycohinya.tinyyana.com/) |
