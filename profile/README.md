@@ -1,54 +1,85 @@
 # Lycohinya 🌸
 
-**來自台灣的 Minecraft 伺服器與開發社群。**
+> **來自台灣的 Minecraft 伺服器與開發社群。**
 
-Lycohinya 是一個以生存為基底的 Minecraft 伺服器。
-除了經營伺服器本身，我們也會針對實際遇到的問題開發插件、工具與伺服器基礎設施，部分成熟且適合獨立使用的專案會在這裡公開。
+Lycohinya 從一個 Minecraft 生存伺服器開始。除了經營伺服器本身，我們也會針對實際營運中遇到的問題開發插件、工具、遊戲系統與伺服器基礎設施。
 
-這個 GitHub 組織收納 Lycohinya 使用的系統，以及我們對外維護的 Minecraft 開源專案。
+這個 GitHub 組織收納 **Lycohinya 使用的系統**，以及我們整理後對外公開、可供其他伺服器獨立使用的 Minecraft 專案。
 
-## 🌸 Lycohinya
+---
 
-Lycohinya 是一個 Minecraft 生存伺服器，以「使魔養成、領地經營、薇莉雅原版生物經濟」為主要玩法。
+## 🌸 關於 Lycohinya
 
-我們保留原版生存的自由度，再加入使魔、花籤、任務、經濟、領地與各種生活品質功能。
-許多在伺服器營運與開發過程中產生的技術，也會逐漸整理成可以獨立使用的專案。
+Lycohinya 是一個以原版生存為基底的 Minecraft Java 伺服器，以 **使魔養成、領地經營與薇莉雅原版生物經濟** 為主要玩法
 
-- 官方網站：https://lycohinya.tinyyana.com/
-- 伺服器：`mc.tinyyana.com`
-- Minecraft Java Edition
-- 版本：26.2
+我們保留 Minecraft 原本自由探索、建築與生存的節奏，再加入使魔、花籤、任務、經濟、領地與各種生活品質功能。許多出現在這個組織的專案，最初也都是從伺服器實際遇到的需求而開發出來的
+
+|           |                                                           |
+| :-------- | :-------------------------------------------------------- |
+| **版本**    | Minecraft Java Edition 26.2                               |
+| **連線位置**  | `mc.tinyyana.com`                                         |
+| **官方網站**  | [lycohinya.tinyyana.com](https://lycohinya.tinyyana.com/) |
+| **主要語言**  | 繁體中文                                                      |
+
+---
+
+## 🛠️ 我們在做什麼
+
+Lycohinya 的開發不只限於伺服器內的玩法功能。只要是在實際營運中遇到、值得自己解決的問題，都可能變成新的專案。
+
+| 類型               | 內容                                  |
+| :--------------- | :---------------------------------- |
+| **Minecraft 插件** | 遊戲系統、生活品質功能、管理工具與其他伺服器功能            |
+| **伺服器技術**        | 反作弊、效能、Paper / Folia 相容性與伺服器行為研究    |
+| **基礎設施**         | Proxy、部署、網站與伺服器維運相關工具               |
+| **Lycohinya 系統** | 為伺服器玩法與營運需求開發的內部系統                  |
+| **公開專案**         | 從 Lycohinya 的需求出發，整理成可讓其他伺服器獨立使用的專案 |
+
+其中有些程式只服務 Lycohinya，因此不一定會公開；適合獨立使用、具有公開價值的專案則會逐步整理到這裡。
+
+---
 
 ## 🧩 Projects
 
-### Kyokalith
+| 專案                                                                                  | 內容                                                            |
+| :---------------------------------------------------------------------------------- | :------------------------------------------------------------ |
+| **[Kyokalith](https://github.com/Lycohinya/Kyokalith)**                             | 不修改原版世界生成結果的 Anti-Xray 礦物層。最初來自 Lycohinya 的反作弊需求，目前作為獨立插件公開維護 |
+| **[AwesomeArmorStandEditor](https://github.com/Lycohinya/AwesomeArmorStandEditor)** | 面向生存伺服器與建築用途的盔甲座、展示實體場景編輯工具                                   |
 
-一個不修改原版世界生成結果的 Anti-Xray 礦物層。
-最初來自 Lycohinya 的反作弊需求，目前作為獨立插件公開維護。
+更多專案會隨著開發成熟度與實際需求逐步公開。
 
-### AwesomeArmorStandEditor
+---
 
-面向生存服與建築用途的盔甲座 / 展示實體場景編輯工具。
+## 👥 團隊
 
-更多專案會隨著開發成熟度與需求逐步公開。
-
-## 👥 關於我們
-
-Lycohinya 的開發與營運主要由 TinyYana 負責，也有其他成員協助伺服器技術、營運、主機與建築內容。
+Lycohinya 是一個規模不大的伺服器。開發與營運主要由 **TinyYana** 負責，其他成員則分別協助主機、伺服器事務、建築與遊戲內容。
 
 ### 開發與營運
 
-- **[TinyYana](https://github.com/TinyYana)** — 服主，伺服器設計、插件開發、營運與基礎設施
-- **[玉米](https://github.com/corn323)** — 緋花汀分流物理服主、協助處理伺服器事務
+| 成員                                          | 職責        | 主要負責內容                    |
+| :------------------------------------------ | :-------- | :------------------------ |
+| **[TinyYana](https://github.com/TinyYana)** | 服主 / 開發   | 伺服器設計、插件開發、系統設計、基礎設施與日常營運 |
+| **[玉米](https://github.com/corn323)**        | 主機 / 營運協力 | 伺服器分流實體主機、伺服器事務與日常營運協助    |
 
 ### 建築與內容協力
 
-- **YoruAkaHane**
-- **WEICCC**
-- **SumiInory**
+| 成員              | 主要協力內容   |
+| :-------------- | :------- |
+| **YoruAkaHane** | 建築與遊戲內場景 |
+| **WEICCC**      | 建築與遊戲內場景 |
+| **SumiInory**   | 建築與遊戲內場景 |
 
-## 🔗 Links
+---
 
-- Website: https://lycohinya.tinyyana.com/
-- GitHub: https://github.com/Lycohinya
-- 彼岸花社群: https://discord.gg/nMAz72MUxv
+## 🔗 相關連結
+
+|                  |                                                           |
+| :--------------- | :-------------------------------------------------------- |
+| 🌐 **官方網站**      | [lycohinya.tinyyana.com](https://lycohinya.tinyyana.com/) |
+| 🎮 **Minecraft** | `mc.tinyyana.com`                                         |
+| 💬 **彼岸花社群**     | [Discord](https://discord.gg/nMAz72MUxv)                  |
+| 🐙 **GitHub**    | [github.com/Lycohinya](https://github.com/Lycohinya)      |
+
+---
+
+<sub>部分專案源自 Lycohinya 的實際營運需求，但公開專案通常可以獨立於 Lycohinya 使用。各專案的授權、支援版本與使用方式請以其 Repository 說明為準。</sub>
